@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+flake8 = "*"
+pylint = "*"
+tox = "*"
+setuptools = "*"
+
+[packages]
+debugpy = "*"
+requests = "*"
+cryptography = "*"
+future = "*"
+sqlalchemy = "*"
+mcstatus = "*"
+quarry = "*"
+discord = {py = "*"}
+bidict = "*"
+minecraft = {editable = true, git = "https://github.com/starcraft66/pyCraft.git", ref = "master"}
+requests-futures = "*"
